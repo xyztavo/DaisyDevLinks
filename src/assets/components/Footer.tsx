@@ -3,7 +3,7 @@ interface FooterProps {
 }
 const Footer = (props: FooterProps) => {
   return (
-    <div className="flex justify-center text-1xl mt-10">{props.text}</div>
+    <div className="flex justify-center text-1xl mt-10 pb-10">{props.text}</div>
   )
 }
 
