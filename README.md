@@ -7,6 +7,7 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -34,7 +35,7 @@ This project was developed using the following technologies:
 
 ### This project is basically a link tree that can be easily modified and customized.
 
-### [See how it actually is live](https://gustafer.github.io/DaisyDevLinks/)
+### [See how it actually is live](daisy-devlinks.vercel.app)
 
 ## 💾 Installation
 
