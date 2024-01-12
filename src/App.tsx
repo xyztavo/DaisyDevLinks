@@ -12,14 +12,14 @@ function App() {
         username="@ustav"
       />
       <ThemeSwitch />
-      <Button title="Ver meu Portfolio" link="https://discord.com" />
-      <Button title="Ver meu github" link="https://discord.com" />
-      <Button title="Ver código deste projeto." link="https://discord.com" />
-      <Button title="Conheça a Rocketseat" link="https://discord.com" />
+      <Button title="Ver meu Portfolio" link="https://ustav-folio.vercel.app" />
+      <Button title="Ver meu github" link="https://github.com/gustafer" />
+      <Button title="Ver código deste projeto." link="https://github.com/gustafer/DaisyDevLinks" />
+      <Button title="Conheça a Rocketseat" link="https:/rocketseat.com" />
       <SocialLinks
-        githubLink="https://github.com"
-        instagramLink="https://instagram.com"
-        discordLink="https://discord.com"
+        githubLink="https://github.com/gustafer"
+        instagramLink="https://github.com/gustafer"
+        discordLink="https://discord.com/users/801073563368947742"
         linkedinLink="https://linkedin.com"
       />
       <Footer text="Feito com ♥ , ustav" />
