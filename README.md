@@ -35,7 +35,7 @@ This project was developed using the following technologies:
 
 ### This project is basically a link tree that can be easily modified and customized.
 
-### [See how it actually is live](daisy-devlinks.vercel.app)
+### [See how it actually is live](https://daisy-devlinks.vercel.app)
 
 ## 💾 Installation
 
