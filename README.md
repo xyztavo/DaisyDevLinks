@@ -6,7 +6,7 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
@@ -38,14 +38,14 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 
 ### This project is basically a link tree that can be easily modified and customized.
 
-### [See how it actually is live]()
+### [See how it actually is live](https://gustafer.github.io/DaisyDevLinks/)
 
 ## 💾 Installation
 
 ### Clone this rep,
 
 ```
- gotta create the rep first lmao
+ git clone https://github.com/gustafer/DaisyDevLinks.git
 ```
 
 Open its folder,
