@@ -18,17 +18,17 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 
 ## 🚀 Technologies
 
- This project was developed using the following technologies:
+This project was developed using the following technologies:
 
- - [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUi](https://daisyui.com/docs/themes/)
+- [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/) and [DaisyUi](https://daisyui.com/docs/themes/)
 
- - [Typescript](https://www.typescriptlang.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
- - [Git](https://git-scm.com/) e [Github](https://github.com/)
+- [Git](https://git-scm.com/) e [Github](https://github.com/)
 
- - [Figma](https://www.figma.com/)
+- [Figma](https://www.figma.com/)
 
- - [React Icons](https://react-icons.github.io/react-icons/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## 💻 Project
 
@@ -38,20 +38,43 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 
 ## 💾 Installation
 
-### Clone this rep,
+<h3 align="center"> Clone this rep :</h3>
 
 ```
  git clone https://github.com/gustafer/DaisyDevLinks.git
 ```
 
-Open its folder,
+<h3 align="center"> Open your folder :</h3>
 
-- Install dependencies
+```
+cd DaisyDevlinks
+```
+
+<h3 align="center"> Install dependencies :</h3>
 
 ```
 npm install
-// or
+```
+
+If you have <strong>[yarn](https://chore-update--yarnpkg.netlify.app/en/docs/install)</strong> installed, use this instead :
+
+```
 yarn
+```
+
+ <h3 align="center">Run your IDE and development server:</h3>
+ 
+  For visual studio :
+```
+code .
+```
+ Dev server using npm :
+```
+npm dev
+```
+Or using yarn :
+```
+yarn dev
 ```
 
 ### Create your own fork ([Guide to create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)) then you are good to go 🎉 !
@@ -59,12 +82,16 @@ yarn
 ## 🔖 Usage
 
 ### Its as simple as going to [App.tsx](./src/App.tsx) and changing everything you need
-- example: 
+
+example:
+
 ```
   username="@ustav"
   imgSource="https://gustafer.github.io/devlinks/assets/avatar.png"
 ```
+
 - you can also change the icons at [SocialLinks.tsx](./src/assets/components/SocialLinks.tsx) using [React Icons](https://react-icons.github.io/react-icons/)
+
 ## 🎨 Customization
 
 ### DaisyUi has plenty of themes to choose from! Choose them at:
@@ -77,9 +104,8 @@ yarn
 
 ### You can also customize anything you want using [tailwindcss](https://tailwindcss.com/) on the [components folder](./src/assets/components/).
 
-
-
 ## 📖 License
+
 This project has [MIT](./MIT-LICENSE.txt) license.
 
 ---
