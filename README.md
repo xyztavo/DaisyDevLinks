@@ -16,10 +16,6 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 
 <br>
 
-<p align="center">
-  <img alt="DevLinks" src=".github/preview.jpg" width="100%">
-</p>
-
 ## 🚀 Technologies
 
  This project was developed using the following technologies:
