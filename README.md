@@ -12,7 +12,7 @@ This is a project inspired on <a href="https://github.com/maykbrito/devlinks" ta
 </p>
 
 <p align="center">
-  <img alt="License" src="./src/assets/images/readme-banner.png">
+  <img alt="License" src="https://github.com/gustafer/DaisyDevLinks/raw/main/src/assets/images/readme-banner.png">
 </p>
 
 <br>
