@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Avatar
-        imgSource="src\assets\images\pfp-small.png"
+        imgSource="https://media.discordapp.net/attachments/953680400616660992/1204542358583119872/pfp-small.png?ex=65d51c7d&is=65c2a77d&hm=30b1e446b03d004c8f8d700537733a1308e8b14378d1084889f920afe3799a20&=&format=webp&quality=lossless&width=670&height=671"
         username="@ustav"
       />
       <ThemeSwitch />
