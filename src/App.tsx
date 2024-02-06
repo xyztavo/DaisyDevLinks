@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Avatar
-        imgSource="https://gustafer.github.io/devlinks/assets/avatar.png"
+        imgSource="src\assets\images\pfp-small.png"
         username="@ustav"
       />
       <ThemeSwitch />
