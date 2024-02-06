@@ -107,6 +107,6 @@ example:
 
 ## 📖 License
 
-This project has [MIT](./MIT-LICENSE.txt) license.
+This project has [MIT](https://github.com/gustafer/DaisyDevLinks/blob/main/MIT-LICENSE.txt) license.
 
 ---
