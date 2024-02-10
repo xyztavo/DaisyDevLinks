@@ -13,7 +13,7 @@ function App() {
       />
       <ThemeSwitch />
       <Button title="Ver meu Portfolio" link="https://ustav-folio.vercel.app" />
-      <Button title="Ver meus Projetos" link="https://projects-hub-ustav.vercel.app/" />
+      <Button title="Ver meus Projetos" link="https://uprojects.vercel.app/" />
       <Button title="Ver meu Github" link="https://github.com/gustafer" />
       <Button title="Ver código deste projeto." link="https://github.com/gustafer/DaisyDevLinks" />
       <SocialLinks
