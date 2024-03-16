@@ -12,8 +12,8 @@ function App() {
         username="@ustav"
       />
       <ThemeSwitch />
-      <Button title="Ver meu Portfolio" link="https://ustav-folio.vercel.app" />
-      <Button title="Ver meus Projetos" link="https://uprojects.vercel.app/" />
+      <Button title="Ver Meu Projeto Principal" link="https://umoviesustav.vercel.app/" />
+      <Button title="Ver Todos Projetos" link="https://uprojects.vercel.app/" />
       <Button title="Ver meu Github" link="https://github.com/gustafer" />
       <Button title="Ver código deste projeto." link="https://github.com/gustafer/DaisyDevLinks" />
       <SocialLinks
