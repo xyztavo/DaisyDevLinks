@@ -12,10 +12,10 @@ function App() {
         username="@ustav"
       />
       <ThemeSwitch />
-      <Button title="Joguin pokemon q to fazendo:" link="https://pokedoro.vercel.app/" />
-      <Button title="Ver Todos Projetos" link="https://uprojects.vercel.app/" />
-      <Button title="Ver meu Github" link="https://github.com/gustafer" />
-      <Button title="Ver código deste projeto." link="https://github.com/gustafer/DaisyDevLinks" />
+      <Button title="My Pokemon Game" link="https://pokedoro.vercel.app/" />
+      <Button title="My Projects" link="https://uprojects.vercel.app/" />
+      <Button title="Github" link="https://github.com/gustafer" />
+      <Button title="See this projects code" link="https://github.com/gustafer/DaisyDevLinks" />
       <SocialLinks
         githubLink="https://github.com/gustafer"
         instagramLink="https://github.com/gustafer"
