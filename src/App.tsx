@@ -12,7 +12,7 @@ function App() {
         username="@ustav"
       />
       <ThemeSwitch />
-      <Button title="My Pokemon Game" link="https://pokedoro.vercel.app/" />
+      <Button title="My Pokemon Game" link="https://pokedoro-next.vercel.app/" />
       <Button title="My Projects" link="https://uprojects.vercel.app/" />
       <Button title="Github" link="https://github.com/gustafer" />
       <Button title="See this projects code" link="https://github.com/gustafer/DaisyDevLinks" />
