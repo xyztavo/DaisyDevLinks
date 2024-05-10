@@ -18,9 +18,9 @@ function App() {
       <Button title="See this projects code" link="https://github.com/gustafer/DaisyDevLinks" />
       <SocialLinks
         githubLink="https://github.com/gustafer"
-        instagramLink="https://github.com/gustafer"
+        instagramLink="https://www.instagram.com/ustav.go/"
         discordLink="https://discord.com/users/801073563368947742"
-        linkedinLink="https://linkedin.com"
+        linkedinLink="https://www.linkedin.com/in/gustavo-luna-6a33942aa/"
       />
       <Footer text="Feito com ♥ , ustav" />
     </>
