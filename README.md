@@ -78,18 +78,28 @@ Or using yarn :
 yarn dev
 ```
 
-### Create your own fork ([Guide to create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)) then you are good to go 🎉 !
-
 ## 🔖 Usage
 
-### Its as simple as going to [App.tsx](./src/App.tsx) and changing everything you need
+### Its as simple as going to [config.json](./config.json) and changing everything you need
 
 example:
 
 ```
-  username="@ustav"
-  imgSource="https://gustafer.github.io/devlinks/assets/avatar.png"
+ {
+    "username": "ustav",
+    "isLanyard": true,
+    "discordUserId": "801073563368947742",
+    "avatarImg": "https://avatars.githubusercontent.com/u/89479041?v=4",
+    "buttons": [
+        {
+            "title": "My Pokemon Game",
+            "link": "https://pokedoro-next.vercel.app/"
+        },
+        {
+....
 ```
+
+if you wish yo use [lanyard](https://github.com/Phineas/lanyard), set the config isLanyard to true and also provide your discordUserId.
 
 - you can also change the icons at [SocialLinks.tsx](./src/assets/components/SocialLinks.tsx) using [React Icons](https://react-icons.github.io/react-icons/)
 

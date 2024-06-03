@@ -5,7 +5,7 @@ interface AvatarProps {
 
 const Avatar = (props: AvatarProps) => {
   return (
-    <div className="p-6 block text-2xl mt-10">
+    <div className="p-6 block text-2xl">
       <img
         src={props.imgSource}
         alt="profile img"
