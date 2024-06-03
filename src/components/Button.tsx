@@ -19,7 +19,7 @@ function Button(props: ButtonProps) {
         }}
         whileHover={{ scale: 1.2 }}
       >
-        <button className="btn h-14 w-80 bg-opacity-5 backdrop-blur border border-zinc-500 text-base">
+        <button className="btn h-14 w-80 backdrop-blur border border-neutral text-base">
           {props.title}
         </button>
       </motion.a>
