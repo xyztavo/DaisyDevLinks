@@ -4,7 +4,9 @@ import { DiscordInfo } from "./components/DiscordInfo";
 import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
 import ThemeSwitch from "./components/ThemeSwitch";
-import * as config from "../config.json"
+import * as config from "../config.json";
+import { FaDiscord } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function App() {
   const isDiscordInfo = config.isLanyard;
@@ -14,14 +16,21 @@ function App() {
       {isDiscordInfo ? (
         <DiscordInfo discordUserId={config.discordUserId} />
       ) : (
-        <Avatar
-          imgSource={config.avatarImg}
-          username={config.username}
-        />
+        <Avatar imgSource={config.avatarImg} username={config.username} />
       )}
-
-      <ThemeSwitch />
-      {config.buttons.map((button) => <Button title={button.title} link={button.link}/>)}
+      <div className="flex flex-row justify-center items-center gap-4">
+        <ThemeSwitch />
+        <motion.a
+          whileHover={{ scale: 1.5 }}
+          href={`https://discordapp.com/users/${config.discordUserId}`}
+          target="_blank"
+        >
+          <FaDiscord  className="w-12 h-12 mb-2" />
+        </motion.a>
+      </div>
+      {config.buttons.map((button) => (
+        <Button title={button.title} link={button.link} />
+      ))}
       <SocialLinks
         githubLink={config.githubLink}
         instagramLink={config.instagramLink}

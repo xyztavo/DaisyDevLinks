@@ -1,7 +1,7 @@
 import axios from "axios";
 import Avatar from "./Avatar";
 import useSWR from "swr";
-import { FaCircle, FaDiscord, FaMoon } from "react-icons/fa";
+import { FaCircle, FaMoon } from "react-icons/fa";
 import * as config from "../../config.json"
 
 export function DiscordInfo({ discordUserId } : { discordUserId: string}) {
@@ -61,12 +61,7 @@ export function DiscordInfo({ discordUserId } : { discordUserId: string}) {
             {returnStatusIcon(lanyard.data)}
           </div>
           <div className="flex flex-row items-center gap-2">
-            <a
-              href={`https://discordapp.com/users/${lanyard.data.discord_user.id}`}
-              target="_blank"
-            >
-              <FaDiscord fill="blue" className="w-8 h-8" />
-            </a>
+       
             <h1 className="text-xl">{lanyard.data.discord_user.global_name}</h1>
           </div>
         </div>
