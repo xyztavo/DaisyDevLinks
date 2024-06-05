@@ -21,11 +21,15 @@ function App() {
       <div className="flex flex-row justify-center items-center gap-4">
         <ThemeSwitch />
         <motion.a
+          animate={{ opacity: 1 }}
+          initial={{
+            opacity: 0,
+          }}
           whileHover={{ scale: 1.5 }}
           href={`https://discordapp.com/users/${config.discordUserId}`}
           target="_blank"
         >
-          <FaDiscord  className="w-12 h-12 mb-2" />
+          <FaDiscord className="w-12 h-12 mb-2" />
         </motion.a>
       </div>
       {config.buttons.map((button) => (

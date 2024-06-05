@@ -3,6 +3,10 @@ import { motion } from "framer-motion"
 const ThemeSwitch = () => {
   return (
         <motion.div  
+        animate={{ opacity: 1 }}
+        initial={{
+          opacity: 0,
+        }}
         whileHover={{ scale: 1.5}}
         className="flex justify-center mb-3">
     <label className="swap swap-rotate">
