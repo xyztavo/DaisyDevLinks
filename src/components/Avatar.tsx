@@ -5,14 +5,17 @@ interface AvatarProps {
 
 const Avatar = (props: AvatarProps) => {
   return (
-    <div className="p-6 block text-2xl">
+    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center gap-2">
       <img
+        className="border-2 border-neutral rounded-full w-28"
         src={props.imgSource}
-        alt="profile img"
-        className="rounded-full m-auto border border-zinc-500 w-28"
       />
-      <h1 className="text-center mt-2">{props.username}</h1>
+      <div className="flex flex-row items-center gap-2">
+        <h1 className="text-xl">{props.username}</h1>
+      </div>
     </div>
+</div>
   );
 };
 

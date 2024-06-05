@@ -3,21 +3,10 @@ import Avatar from "./Avatar";
 import useSWR from "swr";
 import { FaCircle, FaMoon } from "react-icons/fa";
 import * as config from "../../config.json"
+import { Lanyard, LanyardData } from "../types/Lanyard";
+
 
 export function DiscordInfo({ discordUserId } : { discordUserId: string}) {
-  type Lanyard = {
-    data: LanyardData;
-  };
-  type LanyardData = {
-    discord_user: LanyardDiscordUser;
-    discord_status: string;
-  };
-  type LanyardDiscordUser = {
-    id: string;
-    username: string;
-    global_name: string;
-    display_name: string;
-  };
   const baseUrl = "https://api.lanyard.rest/v1/users/";
 
   const {
@@ -36,6 +25,7 @@ export function DiscordInfo({ discordUserId } : { discordUserId: string}) {
         username={config.username}
       />
     );
+
   function returnStatusIcon(lanyard: LanyardData) {
     switch (lanyard.discord_status) {
       case "idle":
