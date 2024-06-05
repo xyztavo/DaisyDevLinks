@@ -55,7 +55,7 @@ export function DiscordInfo({ discordUserId } : { discordUserId: string}) {
         <div className="flex flex-col justify-center items-center gap-2">
           <img
             className="border-2 border-neutral rounded-full w-28"
-            src="https://avatars.githubusercontent.com/u/89479041?v=4"
+            src={config.avatarImg}
           />
           <div className="ml-20 mt-10 absolute bg-neutral p-1  rounded-full">
             {returnStatusIcon(lanyard.data)}
